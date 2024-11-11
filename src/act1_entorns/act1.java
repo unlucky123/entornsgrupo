@@ -12,11 +12,6 @@ public class act1 {
 		// User 2 fer la resta dels elements de subArray
 
 		// User 3 fer la multiplicació dels elements de prodArray
-		int resprod = 1;
-		for (int i = 0; i < prodArray.length; i++) {
-			resprod*= prodArray[i];
-			
-		}
-		System.out.println("Multiplicacion del array= "+resprod);
+		
 	}
 }
