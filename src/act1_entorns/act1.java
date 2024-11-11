@@ -8,6 +8,14 @@ public class act1 {
 		int[] prodArray = { 6, 8, 20, 23, 12 };
 		
 		// User 1 fer la suma dels elements de sumArray
+		System.out.println("Suma de valors de sumArray");
+		int suma =0;
+		for(int i = 0; i< sumArray.length; i++) {
+			suma= suma+sumArray[i];
+			
+		}
+		System.out.println(suma);
+		
 
 		// User 2 fer la resta dels elements de subArray
 
