@@ -18,6 +18,11 @@ public class act1 {
 		
 
 		// User 2 fer la resta dels elements de subArray
+		int resultatResta = subArray[0];  
+	     for (int i = 1; i < subArray.length; i++) {
+	         resultatResta -= subArray[i];  
+	     }
+	     System.out.println(resultatResta);
 
 		// User 3 fer la multiplicació dels elements de prodArray
 		int resprod = 1;
